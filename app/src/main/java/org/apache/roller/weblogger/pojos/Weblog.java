@@ -761,6 +761,41 @@ public class Weblog implements Serializable {
     }
 
     /**
+     * Get number of members.
+     */
+    public int getUserCount() {
+        try {
+            Weblogger roller = WebloggerFactory.getWeblogger();
+            WeblogEntryManager mgr = roller.getWeblogEntryManager();
+            List<WeblogPermission> permissions = roller.getUserManager().getWeblogPermissions(this);
+
+            return (permissions != null) ? permissions.size() : 0;
+
+        } catch (WebloggerException e) {
+            log.error("Error getting weblog member count", e);
+        }
+        return 0;
+    }
+
+    /**
+     * Get list of member permissions.
+     */
+    public List<WeblogPermission> getMemberPermissions() {
+        List<WeblogPermission> list = new ArrayList<>();
+        try {
+            Weblogger roller = WebloggerFactory.getWeblogger();
+            WeblogEntryManager mgr = roller.getWeblogEntryManager();
+            list = roller.getUserManager().getWeblogPermissions(this);
+
+            return list;
+
+        } catch (WebloggerException e) {
+            log.error("Error getting weblog member count", e);
+        }
+        return list;
+    }
+
+    /**
      * Get a list of TagStats objects for the most popular tags
      *
      * @param sinceDays Number of days into past (or -1 for all days)

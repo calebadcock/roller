@@ -21,16 +21,12 @@ package org.apache.roller.weblogger.pojos.wrapper;
 import org.apache.commons.lang3.StringEscapeUtils;
 import org.apache.roller.weblogger.WebloggerException;
 import org.apache.roller.weblogger.business.URLStrategy;
-import org.apache.roller.weblogger.pojos.TagStat;
+import org.apache.roller.weblogger.pojos.*;
 import org.apache.roller.weblogger.util.HTMLSanitizer;
 
 import java.util.*;
-import org.apache.roller.weblogger.pojos.ThemeTemplate;
+
 import org.apache.roller.weblogger.pojos.ThemeTemplate.ComponentType;
-import org.apache.roller.weblogger.pojos.Weblog;
-import org.apache.roller.weblogger.pojos.WeblogCategory;
-import org.apache.roller.weblogger.pojos.WeblogEntry;
-import org.apache.roller.weblogger.pojos.WeblogEntryComment;
 
 
 /**
@@ -352,6 +348,14 @@ public final class WeblogWrapper {
 
     public int getTodaysHits() {
         return this.pojo.getTodaysHits();
+    }
+
+    public int getUserCount() {
+        return this.pojo.getUserCount();
+    }
+
+    public List<WeblogPermission> getMemberPermissions() {
+        return this.pojo.getMemberPermissions();
     }
     
     public List<TagStat> getPopularTags(int sinceDays,int length) {

@@ -97,6 +97,28 @@
                            <td class="mm_subtable_label"><s:text name='yourWebsites.todaysHits' /></td>   
                            <td><s:property value="#perms.weblog.todaysHits" /></td>
                        </tr>
+
+                       <tr>
+                           <td class="mm_subtable_label"><s:text name='yourWebsites.memberList' /></td>
+                           <td>
+                               <table cellpadding="0" cellspacing="0">
+                                   <tr>
+                                       <th>UserName</th>
+                                       <th>Permissions</th>
+                                   </tr>
+                                   <s:iterator id="weblogPerm" value="#perms.weblog.memberPermissions">
+                                       <tr>
+                                           <td><s:property value="#weblogPerm.userName" /></td>
+                                           <td>
+                                               <s:if test='#weblogPerm.hasAction("admin")'  >ADMIN</s:if>
+                                               <s:if test='#weblogPerm.hasAction("post")'       >AUTHOR</s:if>
+                                               <s:if test='#weblogPerm.hasAction("edit_draft")' >LIMITED</s:if>
+                                           </td>
+                                       </tr>
+                                   </s:iterator>
+                               </table>
+                           </td>
+                       </tr>
                        
                    </table>
 
