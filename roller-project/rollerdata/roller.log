@@ -1,0 +1,21 @@
+INFO  2017-01-25 00:00:00,286 ResetHitCountsTask:runTask - task started
+INFO  2017-01-25 00:00:00,354 ResetHitCountsTask:runTask - task completed
+WARN  2017-01-25 00:01:00,078 PingQueueProcessor:processQueue - WARNING: Skipping current ping queue processing round because we cannot yet determine the site's absolute context url.
+WARN  2017-01-25 00:06:00,260 PingQueueProcessor:processQueue - WARNING: Skipping current ping queue processing round because we cannot yet determine the site's absolute context url.
+WARN  2017-01-25 00:11:00,317 PingQueueProcessor:processQueue - WARNING: Skipping current ping queue processing round because we cannot yet determine the site's absolute context url.
+WARN  2017-01-25 00:16:00,300 PingQueueProcessor:processQueue - WARNING: Skipping current ping queue processing round because we cannot yet determine the site's absolute context url.
+WARN  2017-01-25 00:21:00,273 PingQueueProcessor:processQueue - WARNING: Skipping current ping queue processing round because we cannot yet determine the site's absolute context url.
+WARN  2017-01-25 00:26:00,105 PingQueueProcessor:processQueue - WARNING: Skipping current ping queue processing round because we cannot yet determine the site's absolute context url.
+WARN  2017-01-25 00:31:00,267 PingQueueProcessor:processQueue - WARNING: Skipping current ping queue processing round because we cannot yet determine the site's absolute context url.
+WARN  2017-01-25 00:36:00,309 PingQueueProcessor:processQueue - WARNING: Skipping current ping queue processing round because we cannot yet determine the site's absolute context url.
+WARN  2017-01-25 00:41:00,322 PingQueueProcessor:processQueue - WARNING: Skipping current ping queue processing round because we cannot yet determine the site's absolute context url.
+WARN  2017-01-25 00:46:00,072 PingQueueProcessor:processQueue - WARNING: Skipping current ping queue processing round because we cannot yet determine the site's absolute context url.
+WARN  2017-01-25 00:51:00,083 PingQueueProcessor:processQueue - WARNING: Skipping current ping queue processing round because we cannot yet determine the site's absolute context url.
+WARN  2017-01-25 00:56:00,344 PingQueueProcessor:processQueue - WARNING: Skipping current ping queue processing round because we cannot yet determine the site's absolute context url.
+WARN  2017-01-25 01:01:00,259 PingQueueProcessor:processQueue - WARNING: Skipping current ping queue processing round because we cannot yet determine the site's absolute context url.
+WARN  2017-01-25 01:06:00,260 PingQueueProcessor:processQueue - WARNING: Skipping current ping queue processing round because we cannot yet determine the site's absolute context url.
+WARN  2017-01-25 01:11:00,253 PingQueueProcessor:processQueue - WARNING: Skipping current ping queue processing round because we cannot yet determine the site's absolute context url.
+WARN  2017-01-25 01:16:00,072 PingQueueProcessor:processQueue - WARNING: Skipping current ping queue processing round because we cannot yet determine the site's absolute context url.
+WARN  2017-01-25 01:21:00,256 PingQueueProcessor:processQueue - WARNING: Skipping current ping queue processing round because we cannot yet determine the site's absolute context url.
+WARN  2017-01-25 01:26:00,255 PingQueueProcessor:processQueue - WARNING: Skipping current ping queue processing round because we cannot yet determine the site's absolute context url.
+WARN  2017-01-25 01:31:00,079 PingQueueProcessor:processQueue - WARNING: Skipping current ping queue processing round because we cannot yet determine the site's absolute context url.

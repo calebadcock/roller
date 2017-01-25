@@ -29,6 +29,7 @@ import org.apache.roller.weblogger.business.WeblogManager;
 import org.apache.roller.weblogger.pojos.Weblog;
 import org.apache.roller.weblogger.pojos.WeblogPermission;
 import org.apache.roller.weblogger.ui.struts2.util.UIAction;
+import org.apache.roller.weblogger.pojos.User;
 
 
 /**
@@ -132,5 +133,4 @@ public class MainMenu extends UIAction {
     public void setInviteId(String inviteId) {
         this.inviteId = inviteId;
     }
-    
 }
