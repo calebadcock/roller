@@ -102,8 +102,7 @@ public class MainMenu extends UIAction {
     public List<WeblogPermission> getExistingPermissions() {
         try {
             UserManager mgr = WebloggerFactory.getWeblogger().getUserManager();
-            List<WeblogPermission> perms = mgr.getWeblogPermissions(getAuthenticatedUser());
-            return perms;
+           return mgr.getWeblogPermissions(getAuthenticatedUser());
         } catch(Exception e) {
             return Collections.emptyList();
         }
