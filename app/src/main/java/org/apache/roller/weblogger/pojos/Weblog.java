@@ -778,6 +778,8 @@ public class Weblog implements Serializable {
     }
 
     /**
+     * Caleb Adcock
+     * 28 February 2017
      * Get list of member permissions.
      */
     public List<WeblogPermission> getMemberPermissions() {
@@ -786,7 +788,6 @@ public class Weblog implements Serializable {
             Weblogger roller = WebloggerFactory.getWeblogger();
             WeblogEntryManager mgr = roller.getWeblogEntryManager();
             list = roller.getUserManager().getWeblogPermissions(this);
-
             return list;
 
         } catch (WebloggerException e) {
